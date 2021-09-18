@@ -1,3 +1,23 @@
+body {
+  word-wrap: break-word;
+  color: #333;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+p {
+  word-wrap: break-word;
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .lp_body {
   font-family: "小塚ゴシック Pro", "游ゴシック", "Meiryo", sans-serif;
   font-size: 16px;
@@ -75,4 +95,60 @@ a {
 .warning {
   text-align: center;
   font-size: 0.8em;
+}
+
+.only_pc {
+  display: block;
+}
+
+.w_code_head_list {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto -80px;
+}
+
+.w_code_head_list div {
+  width: 32%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify {
+  justify-content: space-between;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.w_code_headtxt {
+  background: #000;
+  color: #fff;
+  padding: 140px 0 3em;
+}
+
+.w_code_headtxt_inner {
+  max-width: 800px;
+}
+
+.only_sp {
+  display: none;
+}
+
+.w_code_headtxt_ttl {
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 0 0 0.2em;
+  margin: 0 0 0.5em;
 }
